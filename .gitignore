@@ -1,0 +1,37 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# macOS system files
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# SQLite database files
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Generated ETL outputs
+outputs/
+
+# Local source data
+data/
+
+# Editor and test caches
+.vscode/
+.pytest_cache/
+.coverage
