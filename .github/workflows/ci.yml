@@ -33,4 +33,7 @@ jobs:
 
       - name: Run automated unit tests
         run: |
-           python -m pytest tests/test_unit_quality.py -v
+           python -m pytest tests/ -v
+      - name: Generate pipeline outputs
+        run: |
+          python scripts/run_pipeline.py
