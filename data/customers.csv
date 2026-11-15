@@ -1,0 +1,501 @@
+customer_id,customer_name,customer_segment,loyalty_tier,city,region,registration_date,preferred_channel,account_status
+C0001,Ama Rahman,Retail,Gold,London,Greater London,2024-04-23,In-store,Active
+C0002,Luca Thomas,Retail,Gold,London,Greater London,2022-06-10,In-store,Active
+C0003,Patrick Chowdhury,Retail,Bronze,Manchester,North West,2022-04-04,Online,Active
+C0004,Ngozi Malik,Retail,Gold,Bristol,South West,2025-08-30,In-store,Active
+C0005,Harry Reed,Wholesale,Silver,Birmingham,West Midlands,2025-08-02,Online,Active
+C0006,Hannah Stewart,Retail,Silver,Cardiff,Wales,2024-01-18,Online,Inactive
+C0007,Zofia Davies,Corporate,Silver,London,Greater London,2024-12-25,Online,Inactive
+C0008,Zara Abubakar,Retail,Silver,Manchester,North West,2025-03-05,Online,Active
+C0009,Aleksandra Kaur,Retail,Bronze,Manchester,North West,2023-03-07,In-store,Active
+C0010,Samuel Kowalski,Retail,Gold,Bristol,South West,2023-09-07,,Active
+C0011,Isaac Musa,Retail,Bronze,London,Greater London,2022-09-15,In-store,Active
+C0012,Yusuf Bennett,Retail,Bronze,Leeds,Yorkshire and Humber,2022-05-29,Online,Active
+C0013,Sanjay Kowalski,Retail,Platinum,London,Greater London,2022-05-20,In-store,Active
+C0014,Aleksandra Brown,Corporate,Gold,Liverpool,North West,2025-11-12,Online,Active
+C0015,Aisha White,Retail,Bronze,London,Greater London,2025-08-10,Online,Active
+C0016,Aoife Gupta,Retail,Bronze,Nottingham,East Midlands,2022-11-06,Online,Inactive
+C0017,Sade Walker,Corporate,Bronze,Birmingham,West Midlands,2025-11-09,Online,Active
+C0018,Tolu Ali,Retail,Bronze,Leeds,Yorkshire and Humber,2025-10-12,Online,Active
+C0019,Elena Akhtar,Retail,Silver,Manchester,North West,2024-10-14,Online,Active
+C0020,Charlotte Osei,Retail,Bronze,Newcastle,North East,2023-04-04,In-store,Active
+C0021,Isaac Nowak,Retail,Bronze,Nottingham,East Midlands,2022-04-10,Online,Active
+C0022,Omar Thomas,Retail,Silver,Manchester,North West,2024-09-04,Online,Active
+C0023,Nneka Gupta,Corporate,Bronze,Manchester,North West,2022-04-03,Online,Active
+C0024,Sean Osei,Wholesale,Gold,Sheffield,Yorkshire and Humber,2025-02-13,Online,Active
+C0025,Evie Jones,Retail,Bronze,Birmingham,West Midlands,2025-07-15,In-store,Active
+C0026,Isaac Green,Retail,Bronze,London,Greater London,2025-07-26,In-store,Active
+C0027,Charlotte Hall,Retail,Bronze,Newcastle,North East,2025-03-04,In-store,Active
+C0028,Zara Cook,Wholesale,Gold,Leeds,Yorkshire and Humber,2025-03-06,Online,Active
+C0029,Adam Boateng,Retail,Silver,London,Greater London,2022-01-22,Online,Active
+C0030,Luca Wilson,Retail,Gold,Sheffield,Yorkshire and Humber,2024-04-26,Mobile app,Active
+C0031,Nadia Thomas,Retail,Bronze,Liverpool,North West,2023-03-18,In-store,Active
+C0032,Mohammed Osei,Wholesale,Silver,Manchester,North West,2024-09-03,In-store,Active
+C0033,Aoife Jones,Retail,Bronze,Manchester,North West,2024-06-25,In-store,Active
+C0034,Tariq Hughes,Retail,Silver,Bristol,South West,2022-02-12,In-store,Inactive
+C0035,William Lewis,Retail,Bronze,Manchester,North West,2023-07-19,Mobile app,Active
+C0036,Mateo Ogunleye,Retail,Silver,Bristol,South West,2023-04-14,Online,Active
+C0037,Evie Hassan,Retail,Gold,Leeds,Yorkshire and Humber,2023-04-25,Online,Active
+C0038,Lily Ali,Retail,Bronze,Manchester,North West,2023-02-10,Online,Active
+C0039,Simran Hall,Corporate,Platinum,Bristol,South West,2025-05-22,In-store,Active
+C0040,Ravi Smith,Retail,Bronze,Manchester,North West,2023-11-15,In-store,Active
+C0041,Arthur Morris,Retail,Silver,York,Yorkshire and Humber,2022-03-07,Online,Active
+C0042,Anika Abubakar,Retail,Bronze,Sheffield,Yorkshire and Humber,2025-09-27,Mobile app,Active
+C0043,Jessica Smith,Retail,Bronze,Manchester,North West,2025-04-12,Online,Active
+C0044,Luca Green,Corporate,Platinum,London,Greater London,2022-03-23,Online,Active
+C0045,Tariq Brown,Retail,Bronze,Leeds,Yorkshire and Humber,2023-01-04,In-store,Active
+C0046,Zofia Wilson,Retail,Silver,Newcastle,North East,2025-05-04,In-store,Active
+C0047,Jack Scott,Retail,Silver,Cardiff,Wales,2025-05-22,Mobile app,Active
+C0048,Zainab Okafor,Wholesale,Gold,Birmingham,West Midlands,2025-08-01,Online,Active
+C0049,Zofia Campbell,Wholesale,Gold,Bristol,South West,2025-11-22,Online,Active
+C0050,Mateo Hassan,Corporate,Silver,Bristol,South West,2025-07-30,Online,Active
+C0051,Layla Akhtar,Retail,Silver,London,Greater London,2025-03-13,In-store,Active
+C0052,Ibrahim Musa,Retail,Gold,Leeds,Yorkshire and Humber,2022-01-27,In-store,Active
+C0053,Anika Lewis,Retail,Gold,Manchester,North West,2022-06-22,Online,Active
+C0054,Anika Adebayo,Corporate,Gold,Leeds,Yorkshire and Humber,2024-06-30,Online,Active
+C0055,Fatima Boateng,Corporate,Silver,Bristol,South West,2024-06-06,Online,Active
+C0056,Sade Hughes,Retail,Gold,Newcastle,North East,2022-07-29,In-store,Active
+C0057,Ravi Abubakar,Wholesale,Gold,Birmingham,West Midlands,2024-03-23,In-store,Active
+C0058,Yusuf Singh,Retail,Silver,Manchester,North West,2025-02-20,Mobile app,Active
+C0059,Kwame Bennett,Retail,Gold,Sheffield,Yorkshire and Humber,2022-08-22,Mobile app,Active
+C0060,Ngozi Morris,Retail,Bronze,London,Greater London,2025-03-10,Online,Active
+C0061,Samuel Stewart,Retail,Gold,Manchester,North West,2024-06-27,Online,Active
+C0062,Abdul Wilson,Retail,Bronze,Liverpool,North West,2022-05-22,Online,Active
+C0063,Abdul Murphy,Retail,Bronze,Manchester,North West,2024-10-19,Online,Active
+C0064,Zara Evans,Retail,Bronze,London,Greater London,2024-05-14,Online,Active
+C0065,Harpreet Harris,Retail,Silver,Newcastle,North East,2024-09-25,Mobile app,Active
+C0066,Priya Adebayo,Retail,Silver,Leeds,Yorkshire and Humber,2023-05-14,Online,Active
+C0067,Jacob Wilson,Retail,Silver,Bristol,South West,2023-06-05,In-store,Active
+C0068,Sade Taylor,Retail,Bronze,Bristol,South West,2022-12-13,Online,Active
+C0069,Lily Carter,Retail,Bronze,London,Greater London,2023-09-15,Online,Active
+C0070,Layla Phillips,Retail,Bronze,London,Greater London,2022-09-08,In-store,Active
+C0071,Abdul Thomas,Retail,Bronze,London,Greater London,2022-05-21,Online,Active
+C0072,Adam Harris,Corporate,Silver,London,Greater London,2022-11-08,Online,Active
+C0073,Sophia Price,Retail,Silver,Birmingham,West Midlands,2022-03-04,Mobile app,Active
+C0074,Henry Eze,Retail,Silver,Nottingham,East Midlands,2022-09-26,Online,Active
+C0075,Arthur Mitchell,Retail,Bronze,London,Greater London,2023-02-15,In-store,Active
+C0076,Sophie Walker,Retail,Bronze,London,Greater London,2024-03-09,Online,Active
+C0077,Amelia Boateng,Corporate,Silver,London,Greater London,2023-10-28,In-store,Active
+C0078,Elena Green,Retail,Bronze,Sheffield,Yorkshire and Humber,2023-12-10,In-store,Active
+C0079,Aoife McDonald,Retail,Silver,Manchester,North West,2024-11-30,In-store,Active
+C0080,Yusuf Parker,Retail,Bronze,Liverpool,North West,2023-12-01,Online,Inactive
+C0081,Elena Ibrahim,Retail,Bronze,Liverpool,North West,2025-01-26,In-store,Active
+C0082,Sanjay Collins,Retail,Silver,London,Greater London,2023-01-26,Online,Active
+C0083,Meera Wisniewski,Retail,Bronze,Bristol,South West,2022-12-30,In-store,Active
+C0084,Ava Osei,Retail,Silver,Liverpool,North West,2025-01-20,Mobile app,Active
+C0085,Henry Martin,Corporate,Bronze,London,Greater London,2023-12-17,Online,Active
+C0086,Piotr Brown,Retail,Bronze,Birmingham,West Midlands,2025-05-03,Mobile app,Active
+C0087,Ibrahim Mitchell,Corporate,Gold,Liverpool,North West,2022-01-22,In-store,Inactive
+C0088,Freya Wright,Corporate,Silver,London,Greater London,2025-09-22,In-store,Active
+C0089,Jack Osei,Retail,Bronze,Sheffield,Yorkshire and Humber,2024-02-15,,Active
+C0090,Thomas Shah,Retail,Silver,Bristol,South West,2022-04-04,Online,Active
+C0091,Omar Adeyemi,Corporate,Platinum,Manchester,North West,2024-11-19,Online,Active
+C0092,Mateo Byrne,Retail,Platinum,Bristol,South West,2024-08-29,In-store,Active
+C0093,Kwame Carter,Corporate,Silver,Leeds,Yorkshire and Humber,2025-05-15,Online,Inactive
+C0094,Charlie Scott,Retail,Silver,Manchester,North West,2025-06-24,In-store,Active
+C0095,Femi Begum,Retail,Bronze,London,Greater London,2024-11-08,Online,Active
+C0096,Noah Carter,Retail,Bronze,Newcastle,North East,2023-02-18,Online,Active
+C0097,Samuel Lewis,Wholesale,Silver,Sheffield,Yorkshire and Humber,2024-11-16,Online,Active
+C0098,Jacob Begum,Corporate,Platinum,Sheffield,Yorkshire and Humber,2025-05-25,Online,Active
+C0099,Harpreet O’Brien,Corporate,Gold,Birmingham,West Midlands,2025-04-17,Online,Active
+C0100,Arjun Hussain,Retail,Bronze,London,Greater London,2024-08-15,Online,Active
+C0101,Thomas Chowdhury,Corporate,Silver,Liverpool,North West,2025-04-20,Online,Inactive
+C0102,Luca Boateng,Retail,Silver,London,Greater London,2022-10-28,In-store,Active
+C0103,Abdul Richardson,Retail,Bronze,London,Greater London,2024-01-11,In-store,Active
+C0104,Aleksandra Harris,Wholesale,Platinum,Birmingham,West Midlands,2022-10-14,Online,Active
+C0105,Amelia Hughes,Retail,Bronze,London,Greater London,2022-06-16,In-store,Active
+C0106,Mariam Ibrahim,Retail,Bronze,Sheffield,Yorkshire and Humber,2025-12-28,In-store,Active
+C0107,Amina Nwosu,Retail,Silver,Birmingham,West Midlands,2023-05-05,In-store,Active
+C0108,Ibrahim Reed,Retail,Bronze,Manchester,North West,2023-10-16,Online,Inactive
+C0109,Henry Abubakar,Wholesale,Bronze,Bristol,South West,2023-02-14,In-store,Active
+C0110,Emily Reed,Corporate,Bronze,Sheffield,Yorkshire and Humber,2023-07-13,In-store,Active
+C0111,Mia Johnson,Retail,Silver,Liverpool,North West,2022-10-22,In-store,Active
+C0112,Rohan Adeyemi,Retail,Bronze,Manchester,North West,2025-10-17,Online,Active
+C0113,Evie Eze,Corporate,Silver,Liverpool,North West,2024-01-15,In-store,Active
+C0114,Jack Byrne,Retail,Bronze,Birmingham,West Midlands,2022-11-02,In-store,Active
+C0115,Yusuf Walsh,Corporate,Gold,London,Greater London,2023-05-21,Online,Active
+C0116,Olivia Martin,Retail,Platinum,Sheffield,Yorkshire and Humber,2024-07-11,Online,Inactive
+C0117,Rohan Ibrahim,Retail,Bronze,London,Greater London,2023-02-13,Online,Active
+C0118,Harry Phillips,Retail,Silver,Newcastle,North East,2022-02-17,In-store,Active
+C0119,Charlie Kapoor,Retail,Silver,Liverpool,North West,2024-11-04,In-store,Inactive
+C0120,Ella Doyle,Retail,Bronze,Liverpool,North West,2023-10-10,In-store,Inactive
+C0121,Simran Hughes,Retail,Silver,Liverpool,North West,2024-12-17,Online,Active
+C0122,Lucy Bell,Retail,Bronze,Birmingham,West Midlands,2025-09-08,Online,Active
+C0123,Priya Wisniewski,Retail,Bronze,Leeds,Yorkshire and Humber,2024-04-04,In-store,Inactive
+C0124,Amelia Evans,Corporate,Bronze,Sheffield,Yorkshire and Humber,2025-11-20,Online,Active
+C0125,Patrick Singh,Corporate,Bronze,London,Greater London,2023-06-28,Online,Active
+C0126,Omar Kelly,Corporate,Gold,Bristol,South West,2022-09-25,Online,Active
+C0127,Isla Turner,Retail,Silver,London,Greater London,2025-07-04,Online,Active
+C0128,Zofia Parker,Retail,Silver,London,Greater London,2024-06-18,Online,Active
+C0129,Noah Hussain,Retail,Silver,London,Greater London,2023-03-14,Mobile app,Active
+C0130,Yusuf Musa,Retail,Silver,Leeds,Yorkshire and Humber,2024-03-13,In-store,Active
+C0131,Tolu Mensah,Retail,Silver,London,Greater London,2025-02-20,Online,Inactive
+C0132,Hassan Hall,Corporate,Gold,Cardiff,Wales,2022-03-10,Online,Active
+C0133,Isla Thompson,Retail,Silver,London,Greater London,2025-03-18,Online,Active
+C0134,Mariam Hassan,Retail,Bronze,Manchester,North West,2023-11-19,In-store,Active
+C0135,Hannah Doyle,Corporate,Silver,Leeds,Yorkshire and Humber,2024-01-07,Online,Active
+C0136,Oscar Ogunleye,Retail,Bronze,Leeds,Yorkshire and Humber,2022-09-18,Online,Inactive
+C0137,Aoife Clarke,Retail,Bronze,Manchester,North West,2024-02-27,Mobile app,Active
+C0138,Layla Thomas,Retail,Bronze,Birmingham,West Midlands,2022-03-24,Online,Active
+C0139,Aoife Gray,Retail,Bronze,Manchester,North West,2023-09-15,Online,Active
+C0140,Ibrahim Brown,Corporate,Silver,London,Greater London,2025-06-09,Online,Active
+C0141,Piotr Cooper,Retail,Bronze,Manchester,North West,2025-10-06,In-store,Active
+C0142,Ruby Begum,Retail,Bronze,Manchester,North West,2024-08-13,In-store,Active
+C0143,Ngozi Thompson,Corporate,Bronze,London,Greater London,2022-05-18,Online,Active
+C0144,Benjamin Khan,Retail,Bronze,Nottingham,East Midlands,2023-11-23,Online,Active
+C0145,Layla Sharma,Retail,Gold,London,Greater London,2025-09-11,Online,Active
+C0146,Noah Ibrahim,Corporate,Silver,Liverpool,North West,2023-09-24,Online,Active
+C0147,Mateo Walker,Retail,Silver,Manchester,North West,2024-06-15,Mobile app,Inactive
+C0148,Yusuf Malik,Retail,Gold,Leeds,Yorkshire and Humber,2022-04-27,Online,Active
+C0149,Omar Ogunleye,Retail,Bronze,Nottingham,East Midlands,2024-02-07,Online,Active
+C0150,Hassan Mitchell,Retail,Bronze,Bristol,South West,2023-02-25,Mobile app,Active
+C0151,Olivia Davies,Retail,Silver,Bristol,South West,2022-11-12,In-store,Active
+C0152,Aleksandra Zielinski,Retail,Bronze,London,Greater London,2024-05-20,Online,Active
+C0153,Adeola Shah,Retail,Bronze,London,Greater London,2023-03-08,Online,Active
+C0154,Lily Ibrahim,Retail,Bronze,Manchester,North West,2024-10-19,Online,Active
+C0155,Lucy Martin,Retail,Silver,Manchester,North West,2023-09-11,Mobile app,Inactive
+C0156,Charlotte Nwosu,Retail,Silver,Liverpool,North West,2022-10-01,Online,Active
+C0157,Oliver Morris,Retail,Bronze,London,Greater London,2023-07-03,In-store,Active
+C0158,Henry Kelly,Wholesale,Silver,London,Greater London,2023-05-23,Mobile app,Inactive
+C0159,Samuel Singh,Wholesale,Platinum,Sheffield,Yorkshire and Humber,2024-05-03,Online,Active
+C0160,Mariam Khan,Retail,Silver,Manchester,North West,2023-01-17,In-store,Active
+C0161,George Gupta,Retail,Silver,London,Greater London,2023-11-01,Online,Active
+C0162,Ruby Mensah,Retail,Bronze,Sheffield,Yorkshire and Humber,2023-06-23,In-store,Active
+C0163,Harpreet Begum,Retail,Platinum,Birmingham,West Midlands,2023-01-27,Mobile app,Active
+C0164,Kofi Carter,Retail,Bronze,York,Yorkshire and Humber,2022-03-24,Online,Active
+C0165,Jacob Collins,Retail,Bronze,London,Greater London,2025-02-08,In-store,Active
+C0166,Hassan Cook,Retail,Bronze,London,Greater London,2022-12-13,In-store,Active
+C0167,Samuel Carter,Retail,Bronze,Manchester,North West,2025-12-14,In-store,Active
+C0168,Mohammed Parker,Retail,Silver,Leeds,Yorkshire and Humber,2023-12-12,Online,Active
+C0169,Hannah Reed,Retail,Bronze,Liverpool,North West,2024-07-23,Mobile app,Active
+C0170,Ava Mensah,Retail,Bronze,Birmingham,West Midlands,2024-03-18,Online,Active
+C0171,Emily Scott,Wholesale,Gold,London,Greater London,2022-08-03,Online,Active
+C0172,Sade Boateng,Corporate,Silver,Liverpool,North West,2024-02-21,Online,Active
+C0173,Yusuf Jones,Corporate,Gold,Leeds,Yorkshire and Humber,2023-01-12,In-store,Active
+C0174,Tariq Okafor,Retail,Bronze,Bristol,South West,2024-05-19,Online,Inactive
+C0175,Chloe Bennett,Retail,Bronze,London,Greater London,2024-05-29,In-store,Active
+C0176,Simran Smith,Retail,Silver,Manchester,North West,2024-02-03,In-store,Active
+C0177,Zofia Kowalski,Retail,Bronze,Manchester,North West,2022-05-15,Online,Active
+C0178,Grace Singh,Wholesale,Gold,London,Greater London,2024-07-06,Online,Active
+C0179,Mateo Mitchell,Corporate,Gold,Birmingham,West Midlands,2025-08-07,Online,Active
+C0180,Samuel Cook,Wholesale,Gold,Birmingham,West Midlands,2025-05-20,In-store,Active
+C0181,Hannah Mensah,Retail,Silver,Manchester,North West,2025-04-24,In-store,Active
+C0182,Mateusz Reed,Retail,Silver,Birmingham,West Midlands,2022-06-26,In-store,Active
+C0183,Amelia Farah,Retail,Silver,Leeds,Yorkshire and Humber,2022-12-09,In-store,Active
+C0184,Aleksandra Jones,Wholesale,Gold,Liverpool,North West,2024-05-14,Online,Active
+C0185,Thomas Scott,Retail,Silver,London,Greater London,2025-05-23,In-store,Active
+C0186,Lucy Kowalski,Retail,Silver,Manchester,North West,2023-04-19,Online,Active
+C0187,James Brown,Retail,Gold,Leeds,Yorkshire and Humber,2024-09-15,Online,Active
+C0188,Sophia Kowalski,Retail,Bronze,Leeds,Yorkshire and Humber,2023-02-11,Mobile app,Active
+C0189,Giulia Malik,Retail,Bronze,Liverpool,North West,2023-10-10,In-store,Active
+C0190,Meera Campbell,Corporate,Gold,Manchester,North West,2023-10-14,Online,Active
+C0191,Amina Roberts,Retail,Bronze,London,Greater London,2023-09-17,Mobile app,Active
+C0192,Noah Martin,Retail,Silver,Sheffield,Yorkshire and Humber,2024-06-15,In-store,Active
+C0193,Sade Chowdhury,Wholesale,Silver,Birmingham,West Midlands,2024-02-09,In-store,Active
+C0194,Layla Shah,Retail,Silver,Norwich,East of England,2024-05-27,Mobile app,Active
+C0195,Daniel Nwosu,Retail,Bronze,London,Greater London,2023-03-17,Online,Active
+C0196,Zainab Clarke,Retail,Gold,London,Greater London,2022-07-02,Online,Inactive
+C0197,Abdul Martin,Retail,Silver,London,Greater London,2023-12-06,Mobile app,Active
+C0198,Aisha Gray,Retail,Bronze,Birmingham,West Midlands,2022-09-22,Online,Active
+C0199,Leo Richardson,Retail,Silver,Birmingham,West Midlands,2025-04-27,In-store,Active
+C0200,Patrick Nowak,Retail,Bronze,Newcastle,North East,2022-06-28,Mobile app,Inactive
+C0201,Tariq Kelly,Wholesale,Gold,London,Greater London,2024-01-01,Online,Active
+C0202,Mohammed Khan,Retail,Silver,Bristol,South West,2023-12-17,Online,Active
+C0203,Layla Eze,Retail,Bronze,Newcastle,North East,2022-04-05,In-store,Active
+C0204,Femi Hussain,Retail,Silver,London,Greater London,2025-07-16,Mobile app,Active
+C0205,Mariam Carter,Retail,Silver,Birmingham,West Midlands,2025-11-16,,Active
+C0206,Ravi Gupta,Retail,Bronze,Liverpool,North West,2025-06-24,In-store,Inactive
+C0207,Tolu Byrne,Retail,Bronze,London,Greater London,2025-06-26,Online,Active
+C0208,Amina Ahmed,Retail,Silver,Bristol,South West,2025-08-30,In-store,Active
+C0209,Charlotte Price,Retail,Bronze,Newcastle,North East,2022-12-21,Mobile app,Active
+C0210,Priya Osei,Retail,Silver,Norwich,East of England,2022-09-07,Online,Inactive
+C0211,Lily Kelly,Retail,Silver,Birmingham,West Midlands,2022-05-07,Online,Active
+C0212,Elena Farah,Retail,Bronze,Newcastle,North East,2024-07-31,In-store,Active
+C0213,Patrick Rahman,Retail,Gold,London,Greater London,2022-11-05,In-store,Active
+C0214,George Evans,Retail,Bronze,Leeds,Yorkshire and Humber,2024-09-21,In-store,Active
+C0215,Priya Lewis,Retail,Gold,London,Greater London,2023-09-07,In-store,Active
+C0216,Noah Harris,Retail,Gold,Leeds,Yorkshire and Humber,2023-03-13,Online,Active
+C0217,Mia Lewis,Corporate,Gold,London,Greater London,2023-09-18,Online,Active
+C0218,Chinedu Khan,Retail,Bronze,London,Greater London,2022-12-30,Online,Active
+C0219,Femi Walker,Retail,Silver,Leeds,Yorkshire and Humber,2022-01-24,In-store,Active
+C0220,Emeka Kelly,Retail,Bronze,Birmingham,West Midlands,2022-09-01,In-store,Active
+C0221,Amina Abubakar,Retail,Gold,Newcastle,North East,2023-01-11,Mobile app,Active
+C0222,Ella White,Retail,Bronze,London,Greater London,2022-06-19,Online,Active
+C0223,Grace Ibrahim,Retail,Bronze,Birmingham,West Midlands,2023-09-11,Online,Active
+C0224,Isla Thomas,Wholesale,Bronze,Sheffield,Yorkshire and Humber,2024-04-19,Online,Active
+C0225,Omar Murphy,Retail,Gold,Liverpool,North West,2022-11-27,In-store,Active
+C0226,Patrick Wright,Corporate,Bronze,London,Greater London,2025-12-31,In-store,Active
+C0227,Ava Singh,Retail,Bronze,London,Greater London,2022-03-10,Online,Active
+C0228,Isaac Davies,Retail,Bronze,Birmingham,West Midlands,2024-02-06,In-store,Active
+C0229,Yusuf Murphy,Retail,Silver,Liverpool,North West,2024-10-10,Online,Active
+C0230,Jacob Johnson,Retail,Bronze,Liverpool,North West,2024-01-17,In-store,Active
+C0231,Ngozi O’Brien,Corporate,Gold,Bristol,South West,2022-07-20,In-store,Active
+C0232,Adam Okafor,Retail,Bronze,London,Greater London,2025-09-27,Online,Active
+C0233,Piotr Collins,Retail,Silver,Newcastle,North East,2024-12-20,Mobile app,Active
+C0234,Anika Gray,Retail,Bronze,Liverpool,North West,2024-03-21,Online,Active
+C0235,Meera Boateng,Retail,Silver,London,Greater London,2025-04-01,Mobile app,Active
+C0236,Harpreet Ahmed,Retail,Silver,Birmingham,West Midlands,2022-11-06,Online,Active
+C0237,Ava Kowalski,Retail,Bronze,Birmingham,West Midlands,2025-06-19,Online,Active
+C0238,Emily Wilson,Retail,Bronze,London,Greater London,2022-09-13,In-store,Active
+C0239,Rohan Eze,Retail,Silver,Sheffield,Yorkshire and Humber,2025-12-13,Mobile app,Active
+C0240,Meera Hussain,Corporate,Platinum,Cardiff,Wales,2024-09-07,Online,Active
+C0241,Daniel Williams,Retail,Bronze,Newcastle,North East,2024-10-18,In-store,Active
+C0242,Isla Zielinski,Retail,Silver,London,Greater London,2025-12-19,In-store,Active
+C0243,Sofia Bell,Retail,Gold,London,Greater London,2023-10-20,Online,Active
+C0244,Elena Gupta,Wholesale,Gold,Liverpool,North West,2024-11-29,Online,Active
+C0245,Sophie Johnson,Retail,Silver,Nottingham,East Midlands,2022-11-12,Mobile app,Active
+C0246,Rohan Ogunleye,Corporate,Gold,Cardiff,Wales,2025-06-25,In-store,Active
+C0247,George Adebayo,Retail,Platinum,Manchester,North West,2023-07-08,Online,Active
+C0248,Oliver Turner,Retail,Bronze,London,Greater London,2022-11-16,Online,Active
+C0249,Amelia Musa,Wholesale,Silver,London,Greater London,2025-12-03,Online,Active
+C0250,Omar Okafor,Retail,Silver,Liverpool,North West,2022-07-12,Online,Active
+C0251,Arjun Stewart,Retail,Gold,Sheffield,Yorkshire and Humber,2024-12-11,Online,Inactive
+C0252,Mateusz Osei,Retail,Bronze,Bristol,South West,2023-01-22,Online,Active
+C0253,Lily Khan,Retail,Silver,London,Greater London,2023-05-11,Online,Active
+C0254,Mateusz Evans,Retail,Bronze,Leeds,Yorkshire and Humber,2023-01-21,In-store,Active
+C0255,Chinedu Walsh,Retail,Silver,York,Yorkshire and Humber,2022-05-28,In-store,Inactive
+C0256,Zofia Osei,Retail,Bronze,Manchester,North West,2024-07-14,In-store,Active
+C0257,Noah Abubakar,Retail,Silver,London,Greater London,2023-09-16,Online,Active
+C0258,Mohammed Phillips,Retail,Bronze,London,Greater London,2022-07-30,In-store,Active
+C0259,Emeka Adeyemi,Retail,Bronze,Leeds,Yorkshire and Humber,2022-06-14,Online,Active
+C0260,George Carter,Retail,Bronze,Manchester,North West,2023-08-07,Online,Active
+C0261,Elena Smith,Retail,Bronze,Liverpool,North West,2022-11-23,In-store,Inactive
+C0262,Yusuf Shah,Retail,Bronze,London,Greater London,2022-01-05,In-store,Active
+C0263,Arjun Turner,Corporate,Bronze,Leeds,Yorkshire and Humber,2022-07-25,In-store,Active
+C0264,Leo Farah,Wholesale,Gold,Manchester,North West,2022-10-27,In-store,Active
+C0265,Leo Cook,Retail,Bronze,Birmingham,West Midlands,2023-08-11,In-store,Active
+C0266,Sophia Bennett,Corporate,Bronze,Manchester,North West,2025-12-05,Online,Active
+C0267,Sade Osei,Corporate,Silver,Birmingham,West Midlands,2023-09-08,Online,Active
+C0268,Sanjay Price,Retail,Bronze,London,Greater London,2025-01-22,Online,Active
+C0269,Aisha Ibrahim,Retail,Bronze,Manchester,North West,2022-05-27,In-store,Active
+C0270,Sanjay Patel,Retail,Silver,Bristol,South West,2024-07-27,Online,Active
+C0271,Yusuf Edwards,Retail,Bronze,Birmingham,West Midlands,2025-02-17,Online,Active
+C0272,Ruby Gray,Retail,Bronze,Manchester,North West,2025-04-14,Online,Active
+C0273,Niamh Murphy,Retail,Bronze,Leeds,Yorkshire and Humber,2025-04-13,Online,Active
+C0274,Meera Davies,Retail,Bronze,London,Greater London,2022-01-17,In-store,Active
+C0275,Chloe Turner,Retail,Bronze,Bristol,South West,2023-07-22,In-store,Active
+C0276,Lily Okafor,Retail,Bronze,Sheffield,Yorkshire and Humber,2023-08-04,Online,Inactive
+C0277,Mohammed Cooper,Retail,Bronze,London,Greater London,2023-07-16,In-store,Active
+C0278,Emily Gupta,Corporate,Bronze,Bristol,South West,2025-08-01,Mobile app,Active
+C0279,Chloe Kapoor,Retail,Bronze,Birmingham,West Midlands,2024-11-11,Online,Inactive
+C0280,Priya Evans,Retail,Bronze,Leeds,Yorkshire and Humber,2024-08-11,In-store,Active
+C0281,Femi Akhtar,Corporate,Gold,Leeds,Yorkshire and Humber,2025-06-04,Online,Active
+C0282,Olivia Kelly,Retail,Silver,Birmingham,West Midlands,2024-01-04,Online,Active
+C0283,Amina O’Brien,Retail,Silver,Norwich,East of England,2024-10-01,In-store,Active
+C0284,Ella Singh,Retail,Silver,Liverpool,North West,2024-10-23,Mobile app,Active
+C0285,Freya Hughes,Retail,Bronze,York,Yorkshire and Humber,2022-08-04,In-store,Active
+C0286,Sofia Reed,Retail,Gold,Newcastle,North East,2022-03-17,In-store,Inactive
+C0287,Zainab Walsh,Wholesale,Gold,Liverpool,North West,2023-06-12,In-store,Active
+C0288,Patrick Richardson,Corporate,Gold,Manchester,North West,2022-03-12,Online,Active
+C0289,Zofia Doyle,Retail,Gold,Leeds,Yorkshire and Humber,2024-01-17,Mobile app,Active
+C0290,Charlie Carter,Retail,Silver,London,Greater London,2025-08-15,In-store,Active
+C0291,Simran Byrne,Retail,Bronze,Manchester,North West,2025-02-07,Mobile app,Active
+C0292,George Parker,Retail,Silver,Leeds,Yorkshire and Humber,2025-02-14,Online,Active
+C0293,Ethan Murphy,Retail,Silver,Bristol,South West,2024-02-23,In-store,Active
+C0294,Ava Farah,Retail,Bronze,London,Greater London,2025-09-03,In-store,Active
+C0295,Ethan Cook,Retail,Bronze,Manchester,North West,2023-05-23,Mobile app,Inactive
+C0296,Olivia Bennett,Retail,Silver,London,Greater London,2023-01-26,In-store,Active
+C0297,Lucy Parker,Wholesale,Silver,Newcastle,North East,2022-08-14,Online,Active
+C0298,Chloe Mohammed,Corporate,Silver,Newcastle,North East,2024-07-04,Online,Active
+C0299,Omar Boateng,Corporate,Platinum,London,Greater London,2022-05-05,Online,Inactive
+C0300,Priya Hassan,Retail,Silver,Leeds,Yorkshire and Humber,2025-02-01,In-store,Active
+C0301,Hannah Johnson,Retail,Bronze,Leeds,Yorkshire and Humber,2022-02-21,Online,Active
+C0302,Aisha Smith,Retail,Bronze,Birmingham,West Midlands,2025-02-03,In-store,Inactive
+C0303,Aisha Abubakar,Retail,Bronze,Cardiff,Wales,2023-07-11,In-store,Active
+C0304,Yusuf Mensah,Wholesale,Platinum,Leeds,Yorkshire and Humber,2024-12-26,In-store,Active
+C0305,Layla O’Brien,Retail,Gold,Leeds,Yorkshire and Humber,2025-09-06,In-store,Active
+C0306,Jessica Shah,Retail,Silver,Birmingham,West Midlands,2025-05-13,In-store,Active
+C0307,Evie Wisniewski,Retail,Silver,Nottingham,East Midlands,2022-07-27,In-store,Active
+C0308,George Ibrahim,Retail,Silver,Birmingham,West Midlands,2024-03-26,Mobile app,Active
+C0309,Tolu Wisniewski,Retail,Platinum,London,Greater London,2022-05-15,Mobile app,Active
+C0310,Jack Kapoor,Corporate,Silver,London,Greater London,2024-02-12,In-store,Active
+C0311,Amelia Begum,Corporate,Gold,Manchester,North West,2023-01-02,Online,Active
+C0312,Mateo Sharma,Retail,Silver,London,Greater London,2023-10-26,In-store,Active
+C0313,Ravi Singh,Retail,Silver,Birmingham,West Midlands,2024-09-08,Mobile app,Active
+C0314,Daniel Doyle,Retail,Platinum,Birmingham,West Midlands,2023-03-27,Online,Active
+C0315,Lily Abubakar,Retail,Bronze,Birmingham,West Midlands,2025-09-10,In-store,Active
+C0316,Tariq Boateng,Corporate,Gold,Manchester,North West,2022-08-23,Online,Active
+C0317,Omar Clarke,Retail,Silver,Birmingham,West Midlands,2025-12-06,Online,Active
+C0318,Arthur Bell,Retail,Bronze,Manchester,North West,2022-05-18,Online,Active
+C0319,Ava Edwards,Corporate,Platinum,London,Greater London,2022-05-20,Online,Active
+C0320,Amelia Morris,Wholesale,Platinum,Liverpool,North West,2022-08-13,In-store,Active
+C0321,James Abubakar,Corporate,Gold,Manchester,North West,2025-01-31,Online,Active
+C0322,Jack Doyle,Corporate,Gold,Sheffield,Yorkshire and Humber,2022-08-17,Online,Active
+C0323,Layla Kelly,Retail,Bronze,London,Greater London,2024-05-31,In-store,Active
+C0324,Jacob Okafor,Retail,Bronze,Liverpool,North West,2023-02-15,Online,Active
+C0325,Ibrahim Jones,Corporate,Gold,York,Yorkshire and Humber,2023-01-11,In-store,Active
+C0326,Tolu Richardson,Retail,Bronze,London,Greater London,2023-01-05,Online,Active
+C0327,Leo Kaur,Wholesale,Gold,Bristol,South West,2024-06-25,Online,Active
+C0328,Mateusz Price,Corporate,Gold,Manchester,North West,2024-02-17,In-store,Active
+C0329,Adeola Hassan,Retail,Bronze,London,Greater London,2022-09-02,Mobile app,Active
+C0330,Simran Bennett,Corporate,Silver,Leeds,Yorkshire and Humber,2022-04-10,In-store,Active
+C0331,Harry Mitchell,Retail,Bronze,London,Greater London,2025-05-08,Online,Active
+C0332,Jack Kowalski,Corporate,Silver,Manchester,North West,2023-12-07,Online,Active
+C0333,Emily Eze,Retail,Bronze,Leeds,Yorkshire and Humber,2022-09-13,In-store,Active
+C0334,Daniel Adeyemi,Retail,Silver,Cardiff,Wales,2023-05-09,Online,Active
+C0335,Isaac Taylor,Corporate,Silver,York,Yorkshire and Humber,2023-11-14,Online,Active
+C0336,Oscar Murphy,Retail,Bronze,Manchester,North West,2024-11-10,In-store,Active
+C0337,Mohammed Scott,Corporate,Gold,Birmingham,West Midlands,2022-11-18,Mobile app,Active
+C0338,Nadia Phillips,Retail,Silver,Norwich,East of England,2022-03-31,Online,Active
+C0339,Nadia Ali,Wholesale,Gold,Leeds,Yorkshire and Humber,2024-11-04,Online,Active
+C0340,Arthur Hall,Retail,Gold,Manchester,North West,2022-11-25,In-store,Active
+C0341,Zainab Taylor,Retail,Silver,Nottingham,East Midlands,2025-05-01,Online,Inactive
+C0342,Zofia Cook,Corporate,Gold,Liverpool,North West,2025-06-11,Online,Active
+C0343,Ibrahim Okafor,Wholesale,Silver,Bristol,South West,2024-12-29,Online,Inactive
+C0344,Jacob Thomas,Retail,Bronze,Sheffield,Yorkshire and Humber,2023-07-01,Online,Active
+C0345,Ruby Bell,Retail,Silver,Liverpool,North West,2025-02-27,Online,Active
+C0346,Amelia Ahmed,Corporate,Gold,Sheffield,Yorkshire and Humber,2024-10-14,Online,Active
+C0347,Jessica Thompson,Retail,Silver,London,Greater London,2025-03-14,In-store,Active
+C0348,Hannah Cooper,Retail,Bronze,Manchester,North West,2022-11-16,Online,Active
+C0349,Sophie Ali,Retail,Bronze,Liverpool,North West,2025-11-24,Online,Active
+C0350,Layla Cooper,Wholesale,Silver,London,Greater London,2022-05-26,Mobile app,Active
+C0351,Jacob Hughes,Retail,Gold,Manchester,North West,2023-12-21,Mobile app,Active
+C0352,Luca Williams,Corporate,Gold,London,Greater London,2025-09-26,Mobile app,Active
+C0353,Piotr Morris,Retail,Silver,Birmingham,West Midlands,2023-06-07,In-store,Active
+C0354,Chloe Kelly,Retail,Silver,Manchester,North West,2024-03-14,Online,Active
+C0355,Mohammed Wilson,Retail,Gold,Nottingham,East Midlands,2025-02-15,Online,Inactive
+C0356,Arthur Gupta,Retail,Bronze,London,Greater London,2022-06-25,Online,Active
+C0357,Fatima Gray,Retail,Bronze,Newcastle,North East,2024-09-19,In-store,Active
+C0358,Giulia Wisniewski,Retail,Bronze,Norwich,East of England,2024-10-02,In-store,Active
+C0359,Freya Cooper,Retail,Bronze,York,Yorkshire and Humber,2023-10-06,Mobile app,Active
+C0360,Samuel Hassan,Retail,Bronze,London,Greater London,2022-11-30,Online,Active
+C0361,Thomas Farah,Wholesale,Bronze,Leeds,Yorkshire and Humber,2025-02-09,Online,Active
+C0362,Aisha Turner,Retail,Silver,London,Greater London,2025-06-09,Mobile app,Inactive
+C0363,Chloe Rahman,Retail,Bronze,London,Greater London,2022-04-11,In-store,Active
+C0364,Chinedu Mohammed,Corporate,Gold,Leeds,Yorkshire and Humber,2025-03-01,Online,Active
+C0365,Sanjay Hussain,Retail,Silver,Leeds,Yorkshire and Humber,2022-01-03,In-store,Active
+C0366,Aisha Morris,Retail,Bronze,London,Greater London,2025-02-26,Online,Active
+C0367,Emeka White,Retail,Silver,Manchester,North West,2022-10-23,In-store,Active
+C0368,James Roberts,Retail,Bronze,Liverpool,North West,2024-03-08,In-store,Active
+C0369,Layla Hussain,Retail,Bronze,Liverpool,North West,2023-10-10,In-store,Active
+C0370,Nneka Johnson,Corporate,Gold,Leeds,Yorkshire and Humber,2023-03-28,In-store,Active
+C0371,Freya Carter,Corporate,Silver,London,Greater London,2024-05-10,In-store,Active
+C0372,Yusuf McDonald,Retail,Silver,Sheffield,Yorkshire and Humber,2022-03-21,Mobile app,Active
+C0373,Simran Martin,Retail,Bronze,Manchester,North West,2022-04-02,Mobile app,Active
+C0374,Harpreet Clarke,Retail,Bronze,London,Greater London,2024-02-13,Online,Active
+C0375,Thomas Wright,Retail,Bronze,Norwich,East of England,2023-11-05,In-store,Active
+C0376,Simran Stewart,Retail,Gold,Leeds,Yorkshire and Humber,2024-12-16,In-store,Active
+C0377,Sophie Price,Retail,Bronze,London,Greater London,2024-03-12,Online,Active
+C0378,Jessica Clarke,Wholesale,Silver,London,Greater London,2025-06-11,In-store,Inactive
+C0379,Daniel Scott,Retail,Bronze,London,Greater London,2025-01-01,Online,Active
+C0380,Sean Okafor,Retail,Bronze,London,Greater London,2024-07-17,In-store,Active
+C0381,Nadia Collins,Retail,Bronze,Liverpool,North West,2022-05-21,In-store,Active
+C0382,Thomas Roberts,Corporate,Gold,Manchester,North West,2024-08-08,Online,Active
+C0383,Ella Murphy,Corporate,Gold,Nottingham,East Midlands,2022-05-01,Online,Active
+C0384,Sean Phillips,Retail,Bronze,Norwich,East of England,2024-11-24,Online,Active
+C0385,Mohammed Hassan,Retail,Bronze,Liverpool,North West,2023-12-29,In-store,Inactive
+C0386,Harry Turner,Wholesale,Gold,London,Greater London,2022-11-03,In-store,Active
+C0387,Arthur Campbell,Corporate,Silver,Leeds,Yorkshire and Humber,2023-07-25,Online,Active
+C0388,Sophia Ogunleye,Retail,Bronze,Birmingham,West Midlands,2025-05-30,In-store,Active
+C0389,Meera Adebayo,Retail,Bronze,London,Greater London,2025-02-18,Mobile app,Active
+C0390,Hassan Chowdhury,Retail,Bronze,Newcastle,North East,2023-05-22,Online,Active
+C0391,Elena Gray,Retail,Silver,Leeds,Yorkshire and Humber,2025-09-18,Online,Active
+C0392,Jacob Patel,Retail,Bronze,London,Greater London,2025-10-11,In-store,Active
+C0393,Charlie Khan,Corporate,Gold,Liverpool,North West,2023-05-23,Online,Active
+C0394,Emeka Carter,Retail,Gold,Birmingham,West Midlands,2024-03-19,In-store,Active
+C0395,Mariam Thompson,Retail,Bronze,Birmingham,West Midlands,2024-10-16,Online,Active
+C0396,Anika Walker,Retail,Bronze,Bristol,South West,2024-06-20,In-store,Active
+C0397,Kofi Gray,Corporate,Gold,Birmingham,West Midlands,2023-02-25,Online,Active
+C0398,Zara Williams,Corporate,Gold,Nottingham,East Midlands,2023-01-11,In-store,Active
+C0399,Omar Price,Retail,Bronze,Liverpool,North West,2022-09-29,Mobile app,Active
+C0400,Sophie Smith,Corporate,Silver,London,Greater London,2022-02-25,Online,Active
+C0401,Lily Walker,Wholesale,Silver,Bristol,South West,2022-10-23,Online,Active
+C0402,Arjun Sharma,Retail,Bronze,Newcastle,North East,2023-08-04,Mobile app,Active
+C0403,Zara Kaur,Retail,Gold,London,Greater London,2025-10-06,Online,Active
+C0404,Sean Wright,Retail,Silver,London,Greater London,2023-06-02,Online,Active
+C0405,Chloe Walsh,Retail,Bronze,London,Greater London,2022-11-30,Mobile app,Active
+C0406,Simran Green,Retail,Bronze,Birmingham,West Midlands,2024-12-22,Online,Active
+C0407,Harry Cook,Retail,Bronze,London,Greater London,2024-09-07,Online,Active
+C0408,George Edwards,Corporate,Silver,London,Greater London,2022-05-28,Online,Active
+C0409,Kofi Kelly,Wholesale,Silver,Nottingham,East Midlands,2022-11-29,Online,Active
+C0410,Yusuf Adeyemi,Retail,Silver,Birmingham,West Midlands,2023-01-01,Mobile app,Active
+C0411,Daniel Patel,Retail,Gold,London,Greater London,2024-07-26,Online,Active
+C0412,Adam Lewis,Retail,Bronze,London,Greater London,2023-07-19,Online,Active
+C0413,Ruby Campbell,Retail,Bronze,Manchester,North West,2022-05-10,In-store,Active
+C0414,Rohan Collins,Corporate,Bronze,London,Greater London,2022-01-07,Online,Active
+C0415,William Adebayo,Retail,Bronze,London,Greater London,2023-01-02,Mobile app,Active
+C0416,Hassan Ibrahim,Retail,Silver,Norwich,East of England,2022-12-04,Online,Active
+C0417,Noah Byrne,Wholesale,Silver,Bristol,South West,2024-06-21,Online,Active
+C0418,Tariq Cooper,Retail,Bronze,Liverpool,North West,2022-04-17,Online,Active
+C0419,Zofia Eze,Corporate,Gold,Manchester,North West,2023-08-16,In-store,Active
+C0420,Yusuf Kelly,Retail,Gold,London,Greater London,2022-10-28,Online,Active
+C0421,Omar Rahman,Retail,Bronze,Bristol,South West,2025-01-10,Online,Active
+C0422,Niamh Bennett,Retail,Bronze,Manchester,North West,2023-06-25,Online,Active
+C0423,Adam Campbell,Wholesale,Bronze,Newcastle,North East,2022-01-17,In-store,Active
+C0424,Elena Lewis,Retail,Bronze,Bristol,South West,2022-03-08,Online,Active
+C0425,Noah Clarke,Retail,Bronze,Manchester,North West,2025-05-29,Online,Active
+C0426,Zainab Akhtar,Corporate,Bronze,Liverpool,North West,2022-01-18,Online,Active
+C0427,Niamh Edwards,Corporate,Bronze,Nottingham,East Midlands,2025-07-13,Online,Active
+C0428,Nneka Byrne,Retail,Bronze,Manchester,North West,2023-03-15,Online,Active
+C0429,Sophia Martin,Wholesale,Gold,Liverpool,North West,2024-12-16,Online,Active
+C0430,Sanjay Davies,Corporate,Silver,London,Greater London,2024-05-21,Online,Active
+C0431,Mohammed Collins,Corporate,Gold,London,Greater London,2022-06-23,Online,Active
+C0432,Amelia Hassan,Retail,Bronze,Manchester,North West,2024-06-24,In-store,Active
+C0433,Oliver O’Brien,Retail,Bronze,Norwich,East of England,2025-12-18,In-store,Active
+C0434,Aleksandra Thompson,Retail,Bronze,London,Greater London,2022-07-24,Online,Active
+C0435,William Singh,Retail,Bronze,Bristol,South West,2025-10-11,In-store,Active
+C0436,Chinedu Gupta,Wholesale,Gold,Birmingham,West Midlands,2023-09-19,Online,Active
+C0437,Sanjay Walker,Corporate,Gold,London,Greater London,2023-01-15,Online,Active
+C0438,Ruby Taylor,Retail,Bronze,London,Greater London,2024-06-06,Online,Inactive
+C0439,Ella Farah,Retail,Bronze,Birmingham,West Midlands,2024-10-02,In-store,Active
+C0440,Mia Singh,Retail,Platinum,London,Greater London,2023-07-31,In-store,Active
+C0441,Nneka Phillips,Corporate,Bronze,London,Greater London,2025-09-19,Online,Active
+C0442,Lily Martin,Corporate,Platinum,Newcastle,North East,2022-11-02,Online,Active
+C0443,Hassan Carter,Retail,Bronze,London,Greater London,2022-08-07,Online,Active
+C0444,Sophia McDonald,Retail,Gold,Manchester,North West,2023-12-08,In-store,Active
+C0445,Simran Singh,Retail,Platinum,Manchester,North West,2022-01-26,In-store,Active
+C0446,Tolu Hughes,Retail,Bronze,Manchester,North West,2022-12-09,Online,Active
+C0447,Henry Kowalski,Retail,Bronze,Bristol,South West,2023-05-25,Mobile app,Active
+C0448,Piotr Khan,Retail,Platinum,Manchester,North West,2023-06-07,In-store,Active
+C0449,Adeola Sharma,Retail,Bronze,Birmingham,West Midlands,2022-11-10,Online,Active
+C0450,Rohan Richardson,Retail,Silver,York,Yorkshire and Humber,2023-08-27,In-store,Active
+C0451,Aisha Collins,Retail,Gold,Sheffield,Yorkshire and Humber,2023-11-25,Online,Active
+C0452,Luca Murphy,Retail,Bronze,Birmingham,West Midlands,2022-06-19,Online,Active
+C0453,Meera Thomas,Retail,Bronze,Leeds,Yorkshire and Humber,2024-03-20,Online,Active
+C0454,Mohammed Green,Wholesale,Bronze,Nottingham,East Midlands,2022-10-22,Online,Active
+C0455,Anika Cook,Wholesale,Gold,Birmingham,West Midlands,2024-05-15,Online,Active
+C0456,Tariq Begum,Wholesale,Bronze,Liverpool,North West,2024-11-11,Online,Active
+C0457,Jessica Richardson,Corporate,Gold,Sheffield,Yorkshire and Humber,2022-11-22,Online,Active
+C0458,Mia Kapoor,Corporate,Gold,Leeds,Yorkshire and Humber,2024-09-03,Online,Active
+C0459,Mateusz Green,Wholesale,Platinum,London,Greater London,2024-02-23,Online,Active
+C0460,Giulia McDonald,Retail,Bronze,Birmingham,West Midlands,2023-11-09,Online,Active
+C0461,Zainab Williams,Retail,Gold,Birmingham,West Midlands,2023-01-30,In-store,Active
+C0462,Hassan Singh,Retail,Bronze,Bristol,South West,2023-03-24,In-store,Active
+C0463,Oscar Byrne,Retail,Bronze,Leeds,Yorkshire and Humber,2024-01-26,Mobile app,Active
+C0464,Sofia Walsh,Corporate,Gold,Newcastle,North East,2025-01-02,Online,Active
+C0465,Yusuf Morris,Retail,Bronze,Liverpool,North West,2025-12-09,Mobile app,Active
+C0466,Lucy Hughes,Retail,Bronze,Manchester,North West,2022-11-15,Online,Active
+C0467,Meera Stewart,Corporate,Gold,London,Greater London,2024-09-21,Online,Active
+C0468,Daniel Edwards,Retail,Silver,Birmingham,West Midlands,2022-06-25,Online,Active
+C0469,Harpreet Adebayo,Corporate,Silver,London,Greater London,2023-04-20,Online,Active
+C0470,Lily Williams,Retail,Bronze,London,Greater London,2023-03-18,Online,Active
+C0471,Fatima Williams,Retail,Silver,Nottingham,East Midlands,2024-09-11,Mobile app,Active
+C0472,Charlie Chowdhury,Retail,Gold,London,Greater London,2025-06-24,Online,Active
+C0473,Ama Cooper,Retail,Bronze,London,Greater London,2023-09-01,In-store,Active
+C0474,Ella Harris,Retail,Gold,Liverpool,North West,2023-05-10,In-store,Active
+C0475,Ella Evans,Corporate,Gold,London,Greater London,2024-04-24,Online,Active
+C0476,Ravi Bennett,Retail,Bronze,London,Greater London,2023-03-03,In-store,Active
+C0477,Jack Brown,Retail,Bronze,Manchester,North West,2023-10-02,In-store,Active
+C0478,Oliver Thomas,Retail,Bronze,Bristol,South West,2025-06-10,Online,Active
+C0479,Emeka Kapoor,Corporate,Gold,Liverpool,North West,2022-08-17,Mobile app,Active
+C0480,Isaac Farah,Corporate,Silver,Leeds,Yorkshire and Humber,2025-03-04,Online,Active
+C0481,Charlie Green,Retail,Bronze,Norwich,East of England,2025-03-20,In-store,Active
+C0482,Sofia Wisniewski,Wholesale,Silver,London,Greater London,2025-09-01,Online,Active
+C0483,Anika Shah,Retail,Bronze,London,Greater London,2025-10-06,Online,Active
+C0484,Chinedu Singh,Retail,Bronze,Birmingham,West Midlands,2023-10-02,In-store,Active
+C0485,Freya Bailey,Retail,Bronze,Norwich,East of England,2025-06-01,In-store,Active
+C0486,Omar Ali,Retail,Bronze,Leeds,Yorkshire and Humber,2022-12-03,In-store,Active
+C0487,Anika Kaur,Corporate,Bronze,Manchester,North West,2022-11-06,Online,Active
+C0488,Charlotte Khan,Wholesale,Gold,London,Greater London,2023-12-27,Online,Active
+C0489,Nneka Ibrahim,Retail,Gold,Birmingham,West Midlands,2023-06-06,In-store,Active
+C0490,Sophia Ibrahim,Corporate,Silver,London,Greater London,2024-11-28,Online,Active
+C0491,Noah O’Brien,Corporate,Gold,London,Greater London,2023-12-08,In-store,Active
+C0492,Arthur Kapoor,Retail,Bronze,Manchester,North West,2024-07-07,Online,Active
+C0493,Femi Carter,Retail,Silver,Birmingham,West Midlands,2022-09-09,Mobile app,Active
+C0494,Priya Williams,Corporate,Gold,Liverpool,North West,2025-09-20,Online,Active
+C0495,Ava Musa,Wholesale,Silver,Leeds,Yorkshire and Humber,2022-09-27,In-store,Active
+C0496,Zara Rahman,Wholesale,Gold,London,Greater London,2024-12-20,In-store,Active
+C0497,Arthur Ahmed,Wholesale,Platinum,Birmingham,West Midlands,2025-04-20,Online,Active
+C0498,Thomas Edwards,Retail,Bronze,Sheffield,Yorkshire and Humber,2023-11-30,In-store,Inactive
+C0499,Leo Ibrahim,Retail,Silver,Liverpool,North West,2023-08-15,In-store,Active
+C0500,Ama Hughes,Corporate,Bronze,Cardiff,Wales,2024-05-21,Online,Active
