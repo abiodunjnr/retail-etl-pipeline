@@ -1,0 +1,151 @@
+product_id,product_name,category,subcategory,unit_price_gbp,unit_cost_gbp,stock_quantity,reorder_level,supplier_id,product_status
+P0001,Clothing Item 001,Clothing,Clothing - Premium,24.6,9.95,46,44,S014,Active
+P0002,Electronics Item 002,Electronics,Electronics - Premium,79.49,53.46,89,33,S025,Active
+P0003,Home & Living Item 003,Home & Living,Home & Living - Essentials,36.12,20.94,61,17,S004,Active
+P0004,Electronics Item 004,Electronics,Electronics - Essentials,628.54,533.66,332,52,S012,Active
+P0005,Home & Living Item 005,Home & Living,Home & Living - Essentials,139.22,77.46,230,43,S012,Active
+P0006,Beauty Item 006,Beauty,Beauty - Standard,35.8,12.59,179,36,S016,Active
+P0007,Clothing Item 007,Clothing,Clothing - Essentials,16.98,8.65,82,15,S021,Active
+P0008,Clothing Item 008,Clothing,Clothing - Essentials,41.8,19.37,169,12,S001,Active
+P0009,Books Item 009,Books,Books - Essentials,13.67,8.62,219,34,S001,Active
+P0010,Electronics Item 010,Electronics,Electronics - Standard,436.04,281.67,297,44,S014,Active
+P0011,Clothing Item 011,Clothing,Clothing - Essentials,9.2,4.42,117,39,S009,Active
+P0012,Books Item 012,Books,Books - Standard,25.01,14.58,170,52,S007,Active
+P0013,Home & Living Item 013,Home & Living,Home & Living - Premium,112.53,67.4,-5,34,S016,Active
+P0014,Clothing Item 014,Clothing,Clothing - Standard,43.48,24.52,462,35,S011,Active
+P0015,Home & Living Item 015,Home & Living,Home & Living - Standard,58.97,35.1,96,12,S007,Active
+P0016,Home & Living Item 016,Home & Living,Home & Living - Essentials,110.23,57.97,88,48,S013,Active
+P0017,Electronics Item 017,Electronics,Electronics - Premium,470.22,342.86,97,34,S023,Active
+P0018,Electronics Item 018,Electronics,Electronics - Essentials,95.16,70.75,19,32,S021,Active
+P0019,Home & Living Item 019,Home & Living,Home & Living - Premium,52.68,28.78,19,34,S012,Active
+P0020,Home & Living Item 020,Home & Living,Home & Living - Premium,155.38,95.59,243,19,S008,Active
+P0021,Electronics Item 021,Electronics,Electronics - Standard,391.94,307.38,70,19,S002,Active
+P0022,Electronics Item 022,Electronics,Electronics - Essentials,319.2,226.31,29,41,S004,Active
+P0023,Electronics Item 023,Electronics,Electronics - Essentials,113.33,80.91,151,42,S002,Active
+P0024,Clothing Item 024,Clothing,Clothing - Standard,37.35,16.5,49,34,S003,Active
+P0025,Electronics Item 025,Electronics,Electronics - Standard,485.23,353.63,69,33,S006,Active
+P0026,Home & Living Item 026,Home & Living,Home & Living - Essentials,99.51,62.08,179,39,S005,Active
+P0027,Home & Living Item 027,Home & Living,Home & Living - Standard,66.95,41.47,188,16,S024,Active
+P0028,Beauty Item 028,Beauty,Beauty - Standard,57.6,30.58,718,25,S004,Active
+P0029,Electronics Item 029,Electronics,Electronics - Premium,410.16,322.67,189,47,S015,Active
+P0030,Sports Item 030,Sports,Sports - Premium,39.14,22.7,70,36,S015,Active
+P0031,Clothing Item 031,Clothing,Clothing - Premium,22.57,9.46,127,34,S014,Active
+P0032,Beauty Item 032,Beauty,Beauty - Premium,20.93,12.37,41,50,S009,Active
+P0033,Home & Living Item 033,Home & Living,Home & Living - Standard,52.69,29.48,110,19,S011,Active
+P0034,Groceries Item 034,Groceries,Groceries - Essentials,18.23,14.82,151,10,S007,Active
+P0035,Home & Living Item 035,Home & Living,Home & Living - Standard,450.0,290.83,111,20,S020,Active
+P0036,Electronics Item 036,Electronics,Electronics - Premium,529.91,367.11,64,46,S024,Discontinued
+P0037,Electronics Item 037,Electronics,Electronics - Standard,235.6,153.56,50,19,S014,Active
+P0038,Home & Living Item 038,Home & Living,Home & Living - Premium,30.51,20.13,113,12,S013,Active
+P0039,Beauty Item 039,Beauty,Beauty - Premium,22.97,8.78,498,17,S021,Active
+P0040,Clothing Item 040,Clothing,Clothing - Essentials,73.57,45.31,47,30,S001,Discontinued
+P0041,Clothing Item 041,Clothing,Clothing - Premium,180.0,107.34,166,40,S006,Active
+P0042,Sports Item 042,Sports,Sports - Essentials,27.04,15.39,26,51,S007,Active
+P0043,Electronics Item 043,Electronics,Electronics - Essentials,377.53,278.16,253,29,S013,Active
+P0044,Home & Living Item 044,Home & Living,Home & Living - Standard,39.52,20.7,16,17,S014,Active
+P0045,Sports Item 045,Sports,Sports - Standard,62.08,36.51,73,35,S001,Active
+P0046,Electronics Item 046,Electronics,Electronics - Standard,152.36,97.52,97,52,S003,Active
+P0047,Beauty Item 047,Beauty,Beauty - Standard,24.51,12.45,130,30,S014,Discontinued
+P0048,Electronics Item 048,Electronics,Electronics - Standard,985.39,729.28,38,25,S018,Active
+P0049,Sports Item 049,Sports,Sports - Premium,116.31,64.12,51,10,S011,Active
+P0050,Home & Living Item 050,Home & Living,Home & Living - Standard,156.78,75.46,318,10,S010,Active
+P0051,Electronics Item 051,Electronics,Electronics - Standard,725.97,437.32,11,43,S007,Active
+P0052,Electronics Item 052,Electronics,Electronics - Premium,87.43,66.77,34,21,S019,Active
+P0053,Home & Living Item 053,Home & Living,Home & Living - Premium,95.01,69.14,47,40,S009,Active
+P0054,Beauty Item 054,Beauty,Beauty - Standard,21.23,9.48,21,36,S016,Active
+P0055,Electronics Item 055,Electronics,Electronics - Standard,174.61,124.81,40,11,S007,Active
+P0056,Electronics Item 056,Electronics,Electronics - Essentials,101.69,66.07,45,52,S020,Active
+P0057,Beauty Item 057,Beauty,Beauty - Premium,25.89,9.9,45,17,S011,Active
+P0058,Electronics Item 058,Electronics,Electronics - Essentials,109.78,68.65,43,11,S010,Active
+P0059,Electronics Item 059,Electronics,Electronics - Essentials,203.13,148.79,87,40,S005,Active
+P0060,Electronics Item 060,Electronics,Electronics - Essentials,135.56,104.22,80,19,S018,Active
+P0061,Clothing Item 061,Clothing,Clothing - Premium,18.34,8.11,48,51,S011,Active
+P0062,Clothing Item 062,Clothing,Clothing - Standard,47.36,18.91,32,28,S004,Active
+P0063,Beauty Item 063,Beauty,Beauty - Essentials,16.53,7.67,267,21,S003,Active
+P0064,Clothing Item 064,Clothing,Clothing - Essentials,49.89,21.71,22,15,S004,Active
+P0065,Clothing Item 065,Clothing,Clothing - Premium,51.68,23.99,37,54,S019,Active
+P0066,Beauty Item 066,Beauty,Beauty - Premium,43.06,24.07,47,18,S022,Active
+P0067,Home & Living Item 067,Home & Living,Home & Living - Standard,168.73,111.67,42,54,S021,Active
+P0068,Books Item 068,Books,Books - Essentials,9.9,6.53,31,28,S008,Active
+P0069,Books Item 069,Books,Books - Essentials,19.54,11.71,117,48,S018,Active
+P0070,Home & Living Item 070,Home & Living,Home & Living - Premium,93.66,51.66,62,31,S019,Active
+P0071,Beauty Item 071,Beauty,Beauty - Essentials,6.42,2.41,39,15,S007,Active
+P0072,Electronics Item 072,Electronics,Electronics - Standard,179.78,130.34,42,50,S001,Active
+P0073,Books Item 073,Books,Books - Standard,41.43,24.7,210,29,S014,Active
+P0074,Home & Living Item 074,Home & Living,Home & Living - Standard,135.17,70.34,145,44,S019,Active
+P0075,Electronics Item 075,Electronics,Electronics - Essentials,275.44,170.81,97,12,S020,Active
+P0076,Electronics Item 076,Electronics,Electronics - Premium,173.84,107.06,42,15,S009,Active
+P0077,Clothing Item 077,Clothing,Clothing - Standard,93.15,37.91,62,36,S002,Active
+P0078,Home & Living Item 078,Home & Living,Home & Living - Premium,104.09,59.34,153,47,S024,Active
+P0079,Home & Living Item 079,Home & Living,Home & Living - Standard,127.28,76.54,45,15,S019,Active
+P0080,Groceries Item 080,Groceries,Groceries - Premium,18.08,15.99,105,21,S021,Active
+P0081,Clothing Item 081,Clothing,Clothing - Standard,77.67,24.1,289,14,S019,Active
+P0082,Home & Living Item 082,Home & Living,Home & Living - Premium,82.09,44.23,171,43,S010,Active
+P0083,Beauty Item 083,Beauty,Beauty - Standard,9.57,3.54,101,50,S015,Active
+P0084,Home & Living Item 084,Home & Living,Home & Living - Standard,199.11,131.47,50,26,S022,Active
+P0085,Electronics Item 085,Electronics,Electronics - Standard,245.91,173.63,97,26,S022,Active
+P0086,Books Item 086,Books,Books - Essentials,17.88,12.78,72,31,S001,Active
+P0087,Home & Living Item 087,Home & Living,Home & Living - Standard,162.6,97.48,134,11,S008,Active
+P0088,Groceries Item 088,Groceries,Groceries - Premium,6.31,4.35,381,41,S017,Active
+P0089,Clothing Item 089,Clothing,Clothing - Premium,98.05,51.4,60,39,S025,Discontinued
+P0090,Clothing Item 090,Clothing,Clothing - Essentials,50.43,25.81,-5,20,S017,Active
+P0091,Electronics Item 091,Electronics,Electronics - Essentials,37.67,27.27,133,43,S010,Active
+P0092,Clothing Item 092,Clothing,Clothing - Essentials,40.3,22.37,118,10,S021,Active
+P0093,Groceries Item 093,Groceries,Groceries - Premium,5.54,4.25,40,21,S016,Active
+P0094,Electronics Item 094,Electronics,Electronics - Premium,147.08,101.86,72,21,S003,Active
+P0095,Home & Living Item 095,Home & Living,Home & Living - Premium,64.63,26.9,33,8,S006,Active
+P0096,Clothing Item 096,Clothing,Clothing - Standard,178.25,75.01,50,26,S012,Active
+P0097,Clothing Item 097,Clothing,Clothing - Premium,62.16,21.51,97,37,S016,Active
+P0098,Beauty Item 098,Beauty,Beauty - Essentials,18.58,9.48,162,44,S025,Active
+P0099,Home & Living Item 099,Home & Living,Home & Living - Premium,94.23,50.01,44,26,S025,Active
+P0100,Home & Living Item 100,Home & Living,Home & Living - Standard,12.0,5.81,55,50,S019,Active
+P0101,Electronics Item 101,Electronics,Electronics - Essentials,35.0,22.94,138,52,S020,Active
+P0102,Clothing Item 102,Clothing,Clothing - Premium,16.0,7.36,365,52,S010,Active
+P0103,Clothing Item 103,Clothing,Clothing - Premium,37.04,17.06,102,12,S001,Active
+P0104,Clothing Item 104,Clothing,Clothing - Standard,87.6,33.82,39,38,S014,Active
+P0105,Clothing Item 105,Clothing,Clothing - Standard,131.3,57.09,69,46,S011,Active
+P0106,Clothing Item 106,Clothing,Clothing - Essentials,14.03,6.13,245,37,S022,Active
+P0107,Beauty Item 107,Beauty,Beauty - Premium,21.83,9.8,43,12,S021,Active
+P0108,Sports Item 108,Sports,Sports - Premium,220.47,123.82,38,11,S018,Active
+P0109,Home & Living Item 109,Home & Living,Home & Living - Premium,178.7,99.79,33,21,S020,Active
+P0110,Groceries Item 110,Groceries,Groceries - Premium,6.21,4.6,33,48,S011,Active
+P0111,Home & Living Item 111,Home & Living,Home & Living - Standard,72.05,46.34,625,25,S024,Active
+P0112,Clothing Item 112,Clothing,Clothing - Premium,14.69,6.66,34,54,S006,Active
+P0113,Home & Living Item 113,Home & Living,Home & Living - Standard,27.14,14.8,38,28,S007,Active
+P0114,Home & Living Item 114,Home & Living,Home & Living - Standard,32.5,20.28,158,34,S003,Active
+P0115,Clothing Item 115,Clothing,Clothing - Premium,28.49,10.07,88,46,S004,Active
+P0116,Sports Item 116,Sports,Sports - Essentials,70.04,45.6,88,8,S020,Active
+P0117,Clothing Item 117,Clothing,Clothing - Essentials,34.37,20.49,194,38,S004,Active
+P0118,Electronics Item 118,Electronics,Electronics - Premium,225.25,156.87,764,10,S012,Active
+P0119,Clothing Item 119,Clothing,Clothing - Standard,54.48,25.96,62,42,S010,Active
+P0120,Electronics Item 120,Electronics,Electronics - Premium,172.19,133.79,26,50,S017,Active
+P0121,Clothing Item 121,Clothing,Clothing - Standard,35.16,14.14,61,9,S024,Active
+P0122,Home & Living Item 122,Home & Living,Home & Living - Essentials,25.38,15.8,107,39,S003,Active
+P0123,Beauty Item 123,Beauty,Beauty - Premium,30.61,13.34,265,50,S021,Active
+P0124,Electronics Item 124,Electronics,Electronics - Standard,136.27,105.57,132,23,S011,Discontinued
+P0125,Home & Living Item 125,Home & Living,Home & Living - Essentials,257.18,121.72,142,42,S017,Active
+P0126,Home & Living Item 126,Home & Living,Home & Living - Premium,14.71,8.95,50,28,S002,Active
+P0127,Clothing Item 127,Clothing,Clothing - Essentials,28.46,12.07,127,31,S023,Active
+P0128,Electronics Item 128,Electronics,Electronics - Essentials,150.26,100.15,76,23,S015,Active
+P0129,Home & Living Item 129,Home & Living,Home & Living - Standard,55.77,32.09,434,48,S025,Active
+P0130,Home & Living Item 130,Home & Living,Home & Living - Essentials,72.13,46.32,171,12,S010,Active
+P0131,Home & Living Item 131,Home & Living,Home & Living - Essentials,123.71,67.3,97,24,S010,Active
+P0132,Clothing Item 132,Clothing,Clothing - Standard,119.09,61.87,59,52,S023,Active
+P0133,Electronics Item 133,Electronics,Electronics - Essentials,136.07,92.86,297,34,S016,Active
+P0134,Electronics Item 134,Electronics,Electronics - Essentials,536.47,365.42,234,16,S021,Active
+P0135,Sports Item 135,Sports,Sports - Standard,275.79,152.81,74,15,S019,Active
+P0136,Home & Living Item 136,Home & Living,Home & Living - Standard,319.71,175.06,39,33,S024,Active
+P0137,Home & Living Item 137,Home & Living,Home & Living - Standard,61.28,31.84,147,30,S002,Active
+P0138,Beauty Item 138,Beauty,Beauty - Standard,14.29,6.9,212,34,S018,Active
+P0139,Clothing Item 139,Clothing,Clothing - Essentials,65.26,33.97,16,19,S001,Active
+P0140,Beauty Item 140,Beauty,Beauty - Essentials,6.01,3.04,196,26,S023,Active
+P0141,Electronics Item 141,Electronics,Electronics - Premium,161.06,120.64,99,22,S014,Active
+P0142,Home & Living Item 142,Home & Living,Home & Living - Standard,98.63,56.12,154,23,S019,Active
+P0143,Electronics Item 143,Electronics,Electronics - Standard,126.6,74.84,105,43,S019,Active
+P0144,Beauty Item 144,Beauty,Beauty - Standard,25.59,8.62,100,19,S002,Active
+P0145,Beauty Item 145,Beauty,Beauty - Premium,13.65,5.62,109,8,S021,Active
+P0146,Clothing Item 146,Clothing,Clothing - Essentials,26.68,11.54,123,18,S009,Active
+P0147,Electronics Item 147,Electronics,Electronics - Standard,418.32,283.04,75,43,S018,Active
+P0148,Beauty Item 148,Beauty,Beauty - Essentials,14.96,7.67,21,48,S002,Active
+P0149,Home & Living Item 149,Home & Living,Home & Living - Standard,41.18,22.35,51,42,S005,Active
+P0150,Beauty Item 150,Beauty,Beauty - Premium,56.93,20.06,73,18,S015,Active

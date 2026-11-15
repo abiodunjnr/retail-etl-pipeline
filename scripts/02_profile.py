@@ -60,3 +60,4 @@ print(missing_dates.to_string(index=False))
 
 print("\nOrder status distribution:")
 print(missing_dates["order_status"].value_counts(dropna=False))
+    

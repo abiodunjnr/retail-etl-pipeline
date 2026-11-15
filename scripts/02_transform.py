@@ -10,16 +10,33 @@ data_folder = project_folder / "data"
 silver_folder = project_folder / "outputs" / "silver"
 quarantine_folder = project_folder / "outputs" / "quarantine"
 
+# Ensure output directories exist
+silver_folder.mkdir(parents=True, exist_ok=True)
+quarantine_folder.mkdir(parents=True, exist_ok=True)
+
 # Extract the three source datasets
-customers = pd.read_csv(data_folder / "customers.csv", dtype={"customer_id": str})
-products = pd.read_csv(data_folder / "products.csv", dtype={"product_id": str})
+customers = pd.read_csv(
+    data_folder / "customers.csv",
+    dtype={"customer_id": str}
+)
+
+products = pd.read_csv(
+    data_folder / "products.csv",
+    dtype={"product_id": str}
+)
+
 sales = pd.read_csv(
     data_folder / "sales_transactions.csv",
-    dtype={"transaction_id": str, "order_id": str,
-           "customer_id": str, "product_id": str}
+    dtype={
+        "transaction_id": str,
+        "order_id": str,
+        "customer_id": str,
+        "product_id": str
+    }
 )
 
 print("Source datasets loaded successfully")
+
 
 
 
