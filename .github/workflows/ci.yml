@@ -14,7 +14,7 @@ on:
 
 jobs:
   test:
-    name: Data Quality Tests
+    name: ETL and API Tests
     runs-on: ubuntu-latest
 
     steps:
@@ -24,16 +24,22 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
+          cache: pip
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
+          python -m pip check
 
       - name: Generate pipeline outputs
         run: |
-          python scripts/run_pipeline.py
+          python -m scripts.run_pipeline
+
+      - name: Verify monitoring records
+        run: |
+          python -c "import sqlite3; from api.monitoring_db import DB_PATH; db=sqlite3.connect(DB_PATH); runs=db.execute('SELECT COUNT(*) FROM pipeline_runs WHERE status = ?', ('SUCCESS',)).fetchone()[0]; metrics=db.execute('SELECT COUNT(*) FROM pipeline_quality_metrics').fetchone()[0]; assert runs >= 1, 'No successful pipeline run'; assert metrics == 3, f'Expected 3 quality records, got {metrics}'; print('Monitoring validation passed'); db.close()"
 
       - name: Run automated tests
         run: |
