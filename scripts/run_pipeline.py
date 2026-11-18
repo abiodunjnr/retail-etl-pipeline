@@ -5,6 +5,7 @@ import sys
 import logging
 import time
 import pandas as pd
+import os
 
 # ============================================================
 # 1. PROJECT CONFIGURATION
@@ -62,6 +63,25 @@ def run_stage(script_name, run_id):
     start_time = time.perf_counter()
 
     try:
+                # Controlled failure injection for local testing
+        simulated_failure = os.getenv("ETL_FAIL_STAGE")
+                # Optional stage delay for live monitoring tests
+        delay_seconds = float(os.getenv("ETL_STAGE_DELAY", "0"))
+
+        if delay_seconds < 0:
+            raise ValueError("ETL_STAGE_DELAY cannot be negative")
+
+        if delay_seconds > 0:
+            logger.info(
+                "Simulating processing time: %.1f seconds",
+                delay_seconds,
+            )
+            time.sleep(delay_seconds)
+
+        if simulated_failure == script_name:
+            raise RuntimeError(
+                f"Simulated failure in ETL stage: {script_name}"
+            )
         if not script_path.is_file():
             raise FileNotFoundError(
                 f"Pipeline script not found: {script_path}"
