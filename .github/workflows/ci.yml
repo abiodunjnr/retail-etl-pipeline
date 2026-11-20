@@ -12,8 +12,13 @@ on:
       - develop
       - main
 
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
 jobs:
-  test:
+  backend-tests:
     name: ETL and API Tests
     runs-on: ubuntu-latest
 
@@ -33,14 +38,159 @@ jobs:
           python -m pip install -r requirements.txt
           python -m pip check
 
-      - name: Generate pipeline outputs
+      - name: Run complete ETL pipeline
         run: |
           python -m scripts.run_pipeline
 
-      - name: Verify monitoring records
+      - name: Validate Gold reporting data
         run: |
-          python -c "import sqlite3; from api.monitoring_db import DB_PATH; db=sqlite3.connect(DB_PATH); runs=db.execute('SELECT COUNT(*) FROM pipeline_runs WHERE status = ?', ('SUCCESS',)).fetchone()[0]; metrics=db.execute('SELECT COUNT(*) FROM pipeline_quality_metrics').fetchone()[0]; assert runs >= 1, 'No successful pipeline run'; assert metrics == 3, f'Expected 3 quality records, got {metrics}'; print('Monitoring validation passed'); db.close()"
+          python - <<'PY'
+          import sqlite3
+          from pathlib import Path
 
-      - name: Run automated tests
+          db_path = Path("database/retail_sales.db")
+
+          assert db_path.exists(), "Retail database not found"
+
+          with sqlite3.connect(db_path) as db:
+              rows = db.execute("""
+                  SELECT
+                      product_category,
+                      total_transactions,
+                      units_sold,
+                      total_revenue_gbp
+                  FROM gold_category_sales
+              """).fetchall()
+
+              assert len(rows) == 7, (
+                  f"Expected 7 categories, got {len(rows)}"
+              )
+
+              transactions = sum(row[1] for row in rows)
+              units = sum(row[2] for row in rows)
+              revenue = round(sum(row[3] for row in rows), 2)
+
+              assert transactions == 4839, (
+                  f"Unexpected transactions: {transactions}"
+              )
+
+              assert units == 14300, (
+                  f"Unexpected units sold: {units}"
+              )
+
+              assert revenue == 1970744.15, (
+                  f"Unexpected revenue: {revenue}"
+              )
+
+              print("Gold reporting validation passed")
+              print(f"Categories: {len(rows)}")
+              print(f"Transactions: {transactions}")
+              print(f"Units sold: {units}")
+              print(f"Revenue: GBP {revenue:,.2f}")
+          PY
+
+      - name: Validate pipeline monitoring records
+        run: |
+          python - <<'PY'
+          import sqlite3
+          from api.monitoring_db import DB_PATH
+
+          with sqlite3.connect(DB_PATH) as db:
+              latest_run = db.execute("""
+                  SELECT run_id
+                  FROM pipeline_runs
+                  WHERE status = 'SUCCESS'
+                  AND finished_at IS NOT NULL
+                  ORDER BY run_id DESC
+                  LIMIT 1
+              """).fetchone()
+
+              assert latest_run is not None, (
+                  "No successful pipeline run found"
+              )
+
+              run_id = latest_run[0]
+
+              metrics = db.execute("""
+                  SELECT
+                      dataset_name,
+                      source_count,
+                      accepted_count,
+                      rejected_count
+                  FROM pipeline_quality_metrics
+                  WHERE run_id = ?
+              """, (run_id,)).fetchall()
+
+              assert len(metrics) == 3, (
+                  f"Expected 3 quality records, got {len(metrics)}"
+              )
+
+              for dataset, source, accepted, rejected in metrics:
+                  assert source == accepted + rejected, (
+                      f"Quality reconciliation failed: {dataset}"
+                  )
+
+              print(f"Monitoring validation passed for run {run_id}")
+              print("All dataset quality counts reconciled")
+          PY
+
+      - name: Validate reporting API endpoints
+        run: |
+          python - <<'PY'
+          from fastapi.testclient import TestClient
+          from api.main import app
+
+          client = TestClient(app)
+
+          health = client.get("/api/v1/health")
+          assert health.status_code == 200
+
+          gold = client.get("/api/v1/gold/category-sales")
+          assert gold.status_code == 200
+          assert len(gold.json()) == 7
+
+          latest = client.get(
+              "/api/v1/pipeline/last-successful-run"
+          )
+          assert latest.status_code == 200
+
+          payload = latest.json()
+          assert payload["run_id"] is not None
+          assert payload["finished_at"] is not None
+
+          print("Health endpoint passed")
+          print("Gold reporting endpoint passed")
+          print("Latest successful run endpoint passed")
+          PY
+
+      - name: Run automated Python tests
         run: |
           python -m pytest tests/ -v
+
+  frontend-tests:
+    name: React Frontend Validation
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: frontend
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint
+
+      - name: Build production frontend
+        run: npm run build

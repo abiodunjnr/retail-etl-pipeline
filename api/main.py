@@ -1,6 +1,7 @@
 
 from fastapi import FastAPI
 import sqlite3
+from pathlib import Path
 from fastapi import HTTPException
 from api.monitoring_db import DB_PATH
 
@@ -162,3 +163,55 @@ def get_pipeline_quality(run_id: int):
         "quality_metrics": quality_metrics,
     }
 
+
+RETAIL_DB_PATH = (
+    Path(__file__).resolve().parent.parent
+    / "database"
+    / "retail_sales.db"
+)
+
+
+@app.get("/api/v1/gold/category-sales")
+def get_gold_category_sales():
+    try:
+        with sqlite3.connect(RETAIL_DB_PATH) as connection:
+            connection.row_factory = sqlite3.Row
+
+            rows = connection.execute("""
+                SELECT
+                    product_category,
+                    total_transactions,
+                    units_sold,
+                    total_revenue_gbp,
+                    average_selling_price_gbp
+                FROM gold_category_sales
+                ORDER BY total_revenue_gbp DESC
+            """).fetchall()
+
+        return [dict(row) for row in rows]
+
+    except sqlite3.Error:
+        raise HTTPException(
+            status_code=500,
+            detail="Unable to retrieve Gold reporting data"
+        )
+@app.get("/api/v1/pipeline/last-successful-run")
+def get_last_successful_run():
+    with sqlite3.connect(DB_PATH) as connection:
+        connection.row_factory = sqlite3.Row
+
+        row = connection.execute("""
+            SELECT
+                run_id,
+                finished_at
+            FROM pipeline_runs
+            WHERE status = 'SUCCESS'
+            AND finished_at IS NOT NULL
+            ORDER BY finished_at DESC
+            LIMIT 1
+        """).fetchone()
+
+    if row is None:
+        return {"run_id": None, "finished_at": None}
+
+    return dict(row)
